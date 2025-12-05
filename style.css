@@ -1,0 +1,261 @@
+<style>
+	/* fonte labubonica */
+	@font-face {
+		font-family: "Helvetica Neue"; /* normal normal */
+		src: url("helvetica_neue/HelveticaNeueRoman.otf") format("opentype"),
+
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	@font-face { /* variante mais pesadinha */
+    font-family: "Helvetica Neue";
+    src: url("helvetica_neue/HelveticaNeue-Bold.woff2") format("opentype"),
+
+    font-weight: 700;
+    font-style: normal;
+	}
+
+	@font-face { /* italianos */
+		font-family: "Helvetica Neue";
+		src: url("helvetica_neue/HelveticaNeueRoman.otf") format("opentype"),
+
+		font-weight: 400;
+		font-style: italic;
+	}
+	
+	body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* TOPO */
+	.topo {
+		display: flex;
+		justify-content: space-between;
+		padding: 15px 25px;
+		background: #73F589;
+		border-bottom: 2px solid #ddd;
+	}
+	
+	.logo { /* PRA LOGO N FICAR ENORME DE GORDA */
+		max-width: 60px;
+		height: auto;
+	}
+	
+	.titulo-logo {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+	
+/* CAIXA DE BUSCA */
+
+	.search-container {
+		display: flex;
+		align-items: center;
+		border: 2px solid #ccc;
+		padding: 8px 12px;
+		border-radius: 8px;
+		width: 350px;
+		background: #fff;
+	}
+
+	.search-icon {
+		font-size: 18px;
+		margin-right: 8px;
+	}
+
+	#searchInput {
+		border: none;
+		width: 100%;
+		outline: none;
+		font-size: 16px;
+	}
+
+	/* Lista de resultados LISTA */
+	#resultadosBusca {
+		list-style: none;
+		margin-top: 10px;
+		padding: 0;
+	}
+
+	#resultadosBusca li {
+		background: #f5f5f5;
+		padding: 10px;
+		border-radius: 6px;
+		margin-bottom: 8px;
+		transition: 0.2s;
+	}
+
+	#resultadosBusca li:hover {
+		background: #eaeaea;
+	}
+
+	#resultadosBusca a {
+		text-decoration: none;
+		color: #003366;
+		font-weight: bold;
+	}
+
+/* SOBRE */
+	.sobre {
+		background: white;
+		padding: 15px 25px;
+		margin-top: 10px;
+		border-left: 5px solid #F5EE47;
+	}
+
+/* PARTE PRINCIPAL */
+	.principal {
+		display: flex;
+		padding: 20px;
+		gap: 40px;
+	}
+
+/* MINI CARROSSEL */
+	.carrossel {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		background: white;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	.carrossel-container {
+		display: flex;
+		gap: 10px;
+		overflow-x: auto;
+	}
+
+	.carrossel-container img {
+		width: 250px;
+		height: 140px;
+		object-fit: cover;
+		border-radius: 8px;
+		border: 1px solid #ccc;
+	}
+
+	.seta {
+		background: #eee;
+		border: none;
+		font-size: 25px;
+		padding: 10px;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+
+/* CATEGORIAS LATERAIS */
+	.categorias ul {
+		list-style: none;
+		padding: 0;
+		background: white;
+		padding: 15px;
+		border-radius: 10px;
+	}
+
+	.categorias li {
+		margin-bottom: 10px;
+	}
+
+	.categorias a {
+		text-decoration: none;
+		font-size: 18px;
+		color: #333;
+	}
+
+/* LISTA DE AÇÕES */
+	.lista-acoes {
+		margin: 20px;
+		background: white;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	th, td {
+		padding: 12px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	th {
+		background: #eee;
+	}
+
+	td a {
+		color: #0077cc;
+		text-decoration: none;
+	}
+	/* NOVA LISTA DE AÇOES IIIIIPEEEEE*/
+	.tabela-acoes {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 15px;
+		background: #fff;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+	}
+
+	.tabela-acoes thead th {
+		background-color: #e9ecef; /* cinza institucional */
+		padding: 14px;
+		text-align: left;
+		font-weight: 600;
+		border-bottom: 2px solid #d6d6d6;
+	}
+
+	.tabela-acoes tbody tr:nth-child(even) {
+		background-color: #f8f9fa; /* Zebra stripes */
+	}
+
+	.tabela-acoes tbody tr:hover {
+		background-color: #eef5ff; /* Destaque suave */
+	}
+
+	.tabela-acoes tbody td {
+		padding: 12px 14px;
+		border-bottom: 1px solid #ececec;
+		color: #333;
+	}
+
+/* Links em estilo institucional */
+	.tabela-acoes td a {
+		color: #0066cc;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.tabela-acoes td a:hover {
+		text-decoration: underline;
+	}
+
+/* Colunas alinhadas */
+	.tabela-acoes td:nth-child(2),
+	.tabela-acoes th:nth-child(2) {
+		text-align: center; /* Tipo */
+	}
+
+	.tabela-acoes td:nth-child(3),
+	.tabela-acoes th:nth-child(3),
+	.tabela-acoes td:nth-child(4),
+	.tabela-acoes th:nth-child(4) {
+		text-align: center; /* Data e vagas */
+	}
+
+/* Título da seção */
+	.sec-title {
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 10px;
+		color: #222;
+		border-left: 5px solid #0056b3;
+		padding-left: 10px;
+	}
+</style>

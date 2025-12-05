@@ -1,0 +1,55 @@
+- Projeto :
+	
+	Cine-ciência (2025)
+		evento DE EXTENSÃO
+
+- Status(ativo ou encerrado):
+	ABERTO
+
+- Data de início e término:
+	
+	04/11/2024 a 31/12/2025 
+	
+- Desrição da ação:
+	O presente projeto apresenta uma estrutura de evento com apresentações de filmes, de caráter científico, seguidos de debates sobre a ciência envolvida. Dado que o cinema é um segmento da sociedade transversal a diversos temas, tais eventos garantem, inclusive, a possibilidade da interdisciplinaridade. Deste modo, as obras cinematográficas apresentadas irão levar, aos participantes, conhecimentos científicos através de métodos alternativos às salas de aula, inclusive em um ambiente tipicamente dissociado da academia. Os resultados esperados vão desde a própria divulgação científica até a boa relação da sociedade com o espaço físico do campus da UFRRJ, em Seropédica.
+
+- Responsável:
+	RODRIGO DE SOUSA GONÇALVES 
+
+- Contato do Responsável:
+	E-mail do responsável:
+		rsg_goncalves@ufrrj.br 
+	 Contato do responsável:
+		(21) 99620-8447 
+
+- Local de realizaçao :
+	
+	Municípios de realização:
+		SEROPÉDICA - RJ
+	Espaços de realização:
+		URRJ, campus Seropédica
+
+
+- Público-alvo:
+
+	Interno:
+		Discentes de graduação em Física e demais interessados nas áreas correlatas
+	
+	Externo:
+		Discentes de graduação em carreiras científicas ou interessados nos temas discutidos em espaços não-formais
+
+
+- Taxas(se existe ou não):
+	não têm 
+	
+- Modalidade do curso :
+	Evento
+
+- Tipo do curso:
+	Exposição
+
+- Carga horária:
+	20
+	
+- Quantidade de vagas:
+	100
