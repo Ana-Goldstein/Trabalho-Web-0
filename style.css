@@ -258,4 +258,22 @@
 		border-left: 5px solid #0056b3;
 		padding-left: 10px;
 	}
-</style>
+
+.footer {
+	background: #73F589;
+	color: #000;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	font-size: 16px;
+}
+
+	.footer p {
+		margin: 5px 0;
+	}
+
+
+
+
+</style >
+
